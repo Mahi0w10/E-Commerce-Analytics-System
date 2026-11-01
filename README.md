@@ -4,9 +4,9 @@ An end-to-end data analytics project that explores e-commerce sales, customer ac
 
 ## About the Project
 
-This project analyzes the Brazilian E-Commerce Public Dataset by Olist to understand how an online marketplace performs across orders, revenue, product categories, customer reviews, and delivery.
+This project analyzes the **Brazilian E-Commerce Public Dataset by Olist** to understand the performance of an online marketplace across orders, revenue, product categories, customer reviews, payment methods, and delivery.
 
-I built this project to apply data analytics concepts to a real-world dataset and turn raw data into meaningful business insights.
+The goal is to transform raw e-commerce data into meaningful business insights that can support data-driven decision-making.
 
 ## Project Objectives
 
@@ -14,22 +14,25 @@ I built this project to apply data analytics concepts to a real-world dataset an
 * Understand customer purchasing patterns.
 * Identify top-performing product categories.
 * Explore order statuses and payment methods.
-* Review customer ratings.
+* Analyze customer ratings and reviews.
 * Evaluate delivery performance and delays.
-* Present key metrics in a Power BI dashboard.
+* Build an interactive Power BI dashboard to visualize key business metrics.
 
 ## Tools & Technologies
 
-* **SQL & MySQL** — data storage, queries, and analysis
-* **Python** — data analysis
-* **Pandas** — data manipulation
-* **Power BI** — dashboard and visualizations
+| Tool     | Purpose                                 |
+| -------- | --------------------------------------- |
+| SQL      | Business queries and data analysis      |
+| MySQL    | Data storage and database management    |
+| Python   | Data analysis and processing            |
+| Pandas   | Data manipulation and analysis          |
+| Power BI | Dashboard development and visualization |
 
 ## Dashboard Preview
 
 ![E-Commerce Analytics Dashboard](dashboard.png)
 
-The dashboard includes:
+The Power BI dashboard includes the following visualizations:
 
 * Total Orders
 * Total Revenue
@@ -39,11 +42,12 @@ The dashboard includes:
 * Late Delivery Percentage
 * Monthly Revenue Trend
 * Order Status Distribution
-* Top 10 Product Categories by Revenue and Orders
+* Top 10 Product Categories by Revenue
+* Top 10 Product Categories by Orders
 
 ## Key Metrics
 
-The current dashboard displays approximately:
+The current dashboard displays the following results:
 
 | Metric          |         Value |
 | --------------- | ------------: |
@@ -52,45 +56,51 @@ The current dashboard displays approximately:
 | Total Customers |        99,441 |
 | Average Rating  |          4.09 |
 
-These values are dashboard outputs and should be validated against the underlying data before formal reporting.
+*Note: These are current dashboard outputs. Metric definitions and calculations should be validated against the underlying data before formal business reporting.*
 
 ## Project Files
 
-* `01_data_loading.py` — Python data loading script
-* `ecommerce_analysis.py` — Python analysis script
-* `data_loading.sql` — SQL data loading script
-* `business_analysis.sql` — SQL business analysis queries
-* `Project_Documentation.txt` — project documentation
-* `dashboard.png` — Power BI dashboard preview
+| File                        | Description                       |
+| --------------------------- | --------------------------------- |
+| `01_data_loading.py`        | Python data-loading script        |
+| `ecommerce_analysis.py`     | Python data analysis script       |
+| `data_loading.sql`          | SQL data-loading script           |
+| `business_analysis.sql`     | SQL queries for business analysis |
+| `Project_Documentation.txt` | Project documentation             |
+| `dashboard.png`             | Power BI dashboard preview        |
 
 ## Power BI Dashboard
 
-[View or download the Power BI dashboard (.pbix)](https://drive.google.com/file/d/18y_Za0Gcvp7hPYsQVfYekRECg_twLSpO/view?usp=drive_link)
+**[View or Download the Power BI Dashboard (.pbix)](https://drive.google.com/file/d/18y_Za0Gcvp7hPYsQVfYekRECg_twLSpO/view?usp=drive_link)**
 
-If access is requested, check that Google Drive sharing is set to **Anyone with the link — Viewer**.
+If prompted to request access, ensure the Google Drive file is shared with **Anyone with the link — Viewer**.
+
+The `.pbix` file can be opened using Microsoft Power BI Desktop.
 
 ## Dataset
 
-**Brazilian E-Commerce Public Dataset by Olist** — available on Kaggle.
+**Brazilian E-Commerce Public Dataset by Olist**
 
-The dataset contains information about orders, customers, products, sellers, payments, reviews, and product categories. The original dataset is not included in this repository.
+The dataset is publicly available on Kaggle and contains information about orders, customers, products, sellers, payments, reviews, and product categories.
+
+The original dataset is not included in this repository.
 
 ## How to Explore the Project
 
 1. Review the SQL files to understand the data-loading and business-analysis queries.
-2. Open the Python scripts to explore the analysis workflow.
-3. View `dashboard.png` for a preview of the Power BI report.
-4. Use the Power BI file linked above to explore the dashboard.
+2. Explore the Python scripts to understand the data-processing and analysis workflow.
+3. View `dashboard.png` to preview the Power BI dashboard.
+4. Open or download the `.pbix` file using the Google Drive link above to explore the report in Power BI Desktop.
 
 ## Future Improvements
 
-* Add more detailed customer segmentation.
+* Add customer segmentation and retention analysis.
 * Improve data validation and cleaning.
-* Include additional business KPIs.
-* Explore automated reporting and insight generation.
+* Introduce additional business performance indicators.
+* Enhance dashboard interactivity.
+* Explore automated reporting and business insight generation.
 
 ## Author
 
 **Mahi Jha**
-
 B.Tech — Computer Science and Business Systems
