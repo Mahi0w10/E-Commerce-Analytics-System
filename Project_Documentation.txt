@@ -1,0 +1,124 @@
+# E-Commerce Analytics System
+
+## Project Documentation
+
+### 1. Introduction
+
+The E-Commerce Analytics System is a data analytics project designed to analyze online shopping data and identify useful business insights. It focuses on sales performance, customer behavior, product categories, payment methods, customer reviews, and delivery performance.
+
+The project uses SQL, MySQL, Python, Pandas, and Power BI to process, analyze, and visualize e-commerce data.
+
+### 2. Problem Statement
+
+E-commerce businesses generate large amounts of data through customer orders, payments, products, and deliveries. Analyzing this data manually can be time-consuming and may make it difficult to identify important trends.
+
+This project aims to organize and analyze e-commerce data to help understand business performance and support data-driven decisions.
+
+### 3. Project Objectives
+
+* Analyze total orders and revenue.
+* Study monthly revenue trends.
+* Identify top-performing product categories.
+* Analyze payment methods and order statuses.
+* Evaluate customer ratings and reviews.
+* Measure delivery performance and delays.
+* Present key metrics through an interactive dashboard.
+
+### 4. Dataset
+
+The project uses the Brazilian E-Commerce Public Dataset by Olist, available on Kaggle.
+
+The dataset contains information about orders, customers, products, sellers, payments, reviews, and product categories.
+
+### 5. Tools and Technologies
+
+* **MySQL:** Database storage and management.
+* **SQL:** Data querying and business analysis.
+* **Python:** Data analysis and calculations.
+* **Pandas:** Data manipulation and processing.
+* **Power BI:** Dashboard development and visualization.
+
+### 6. Methodology
+
+The project follows these steps:
+
+1. Import the dataset into MySQL.
+2. Organize the data into relevant tables.
+3. Use SQL queries to analyze business metrics.
+4. Load data into Python for analysis using Pandas.
+5. Calculate key performance indicators.
+6. Connect the database to Power BI.
+7. Build visualizations and an interactive dashboard.
+8. Review the results and identify potential business insights.
+
+### 7. Key Performance Indicators
+
+The dashboard includes the following metrics:
+
+* Total Orders
+* Total Revenue
+* Average Order Value
+* Total Customers
+* Average Customer Rating
+* Late Delivery Percentage
+
+The metrics provide an overview of sales, customer activity, and delivery performance.
+
+### 8. Dashboard Features
+
+The Power BI dashboard includes:
+
+* Monthly Revenue Trend
+* Order Status Distribution
+* Top 10 Product Categories by Revenue
+* Top 10 Product Categories by Orders
+* KPI cards for important business metrics
+
+These visualizations help users explore patterns and compare business performance.
+
+### 9. Business Applications
+
+The analysis can help businesses:
+
+* Understand revenue patterns over time.
+* Identify popular product categories.
+* Review customer feedback.
+* Compare payment methods.
+* Monitor delivery performance.
+* Make more informed business decisions.
+
+### 10. Current Results
+
+The current dashboard displays approximately:
+
+* Total Orders: 99,441
+* Total Revenue: 15.84 million
+* Total Customers: 99,441
+* Average Customer Rating: 4.09
+
+These are preliminary dashboard values and should be validated against the underlying data before being used for formal business reporting.
+
+### 11. Limitations
+
+* The analysis depends on the quality and completeness of the source dataset.
+* Some metrics may vary depending on calculation methods and table relationships.
+* The current dashboard focuses on selected business indicators rather than every possible aspect of e-commerce performance.
+
+### 12. Future Scope
+
+Possible improvements include:
+
+* More detailed customer segmentation.
+* Additional SQL-based business analysis.
+* Improved data cleaning and validation.
+* More interactive dashboard features.
+* Automated report generation.
+* Business recommendations based on analytical findings.
+
+### 13. Conclusion
+
+The E-Commerce Analytics System demonstrates how SQL, Python, MySQL, and Power BI can be used together to analyze e-commerce data. It converts raw records into meaningful metrics and visualizations that help users understand sales, customers, products, and delivery performance.
+
+### 14. Dataset Reference
+
+Brazilian E-Commerce Public Dataset by Olist — available on Kaggle.
